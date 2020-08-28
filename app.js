@@ -1,7 +1,7 @@
 // dependancies
 const express = require("express"),
     app = express(),
-    port = process.env.port || 8080,
+    port = process.env.PORT || 8080,
     { static } = require("express");
 app.use(static("public"));
 app.use(static("views"));
