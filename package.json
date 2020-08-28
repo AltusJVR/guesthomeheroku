@@ -1,0 +1,14 @@
+{
+  "name": "guesthomeheroku",
+  "version": "1.0.0",
+  "description": "Test for nodejs on heroku for GuestATHome",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Altus Janse Van Rensburg <albertusbjvr@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,83 @@
+
+#navbar-container {
+    background-color: #647546;
+    /* color: #3B8C88; */
+}
+
+.navbar-dark .navbar-brand {
+    font-family: 'Roboto Slab', serif;
+    font-weight:700;
+    color: #19211B;
+}
+
+.navbar-dark .navbar-brand:hover{
+    color: #E1DFD5;
+}
+
+.GAH-logo {
+    color:#19211B;
+}
+
+.navbar a {
+    color:#89947F;
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color:#19211B;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.jumbotron {
+    background-image: url(/img/croppedbanner2cp.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#jumbotron{
+    color: #E1DFD5;
+    text-shadow:  1px 1px rgba(46, 39,40 , 1);
+}
+
+.jumbotron-strong {
+    color:  #E1DFD5;
+    font-weight: 700;
+}
+
+.jumbotron  p{
+    font-size: 1.8rem;
+}
+
+#main-body {
+    background-color: #E1DFD5 ;
+}
+#main-body h1 {
+    text-align: center ;
+    font-family: 'Roboto Slab', serif;
+    margin: 10px 0;
+}
+#main-body p {
+    
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+}
+
+#footer {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
