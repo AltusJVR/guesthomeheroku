@@ -52,23 +52,36 @@
     font-weight: 700;
 }
 
-.jumbotron  p{
-    font-size: 1.8rem;
+
+#jumbotron h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+#jumbotron .lead{
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 body {
     background-color: #E1DFD5 ;
 }
 
+body a{
+    color: #89947F;
 
+}
+body a:hover{
+    color: #19211B;
+}
 
 #main-body h1 {
-    text-align: left ;
     font-family: 'Roboto Slab', serif;
     margin: 10px 0;
 }
+
 #main-body p {
-    text-align: center;
+    text-align: left;
     font-family: 'Roboto', serif;
     font-weight: 400;
 }
@@ -76,11 +89,40 @@ body {
 #footer {
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
+    color: #19211B;
 }
+
+
 
 hr {
     border: 0;
     height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.3);
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;/* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    /* height: 100%; */
+    width: 100%;
+}
+
+.fa-facebook-f  {
+    color: #19211B;
+}
+.fa-facebook-f:hover  {
+    color: #89947F;
 }
