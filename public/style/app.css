@@ -56,16 +56,19 @@
     font-size: 1.8rem;
 }
 
-#main-body {
+body {
     background-color: #E1DFD5 ;
 }
+
+
+
 #main-body h1 {
-    text-align: center ;
+    text-align: left ;
     font-family: 'Roboto Slab', serif;
     margin: 10px 0;
 }
 #main-body p {
-    
+    text-align: center;
     font-family: 'Roboto', serif;
     font-weight: 400;
 }
