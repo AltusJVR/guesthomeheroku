@@ -90,8 +90,16 @@ body a:hover{
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
     color: #19211B;
+    margin-bottom: 0.5rem;
 }
 
+footer a:hover {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
 
 
 hr {
@@ -103,7 +111,8 @@ hr {
 
 .iframe-container{
     position: relative;
-    width: 100%;
+    width: auto;
+    height: 100%;
     padding-bottom: 56.25%;/* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
 }
 
@@ -115,14 +124,16 @@ hr {
     bottom: 0;
     left: 0;
     margin: 0;
-    padding: 0;
-    /* height: 100%; */
+    padding-bottom: 20px;
+    height: 100%;
     width: 100%;
 }
 
 .fa-facebook-f  {
-    color: #19211B;
+    color: #1096F4;
 }
 .fa-facebook-f:hover  {
-    color: #89947F;
+    color: #19211B;
 }
+
+
