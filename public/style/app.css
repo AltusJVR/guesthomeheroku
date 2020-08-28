@@ -1,4 +1,7 @@
 
+
+
+
 #navbar-container {
     background-color: #647546;
     /* color: #3B8C88; */
@@ -46,19 +49,24 @@
     color: #E1DFD5;
     text-shadow:  1px 1px rgba(46, 39,40 , 1);
 }
-
-.jumbotron-strong {
-    color:  #E1DFD5;
-    font-weight: 700;
+.text-responsive {
+    font-size:1.5rem;
 }
 
-
-#jumbotron h1{
-    font-size: 3rem;
-    text-align: center;
+@media (min-width: 544px) {
+    .text-responsive {font-size: 2rem}
+}
+@media (min-width: 768px) {
+    .text-responsive{font-size: 2rem}
+}
+@media (min-width: 992px) {
+    .text-responsive {font-size: 2.5rem}
+}
+@media (min-width: 1200px) {
+    .text-responsive {font-size: 2.8rem}
 }
 
-#jumbotron .lead{
+#jumbotron > .lead{
     font-size: 1.5rem;
     text-align: center;
 }
