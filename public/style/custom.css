@@ -1,31 +1,33 @@
 @font-face {
-    font-family: 'Logo';
-    src:  url('/fonts/Logo.eot?r7kepq');
-    src:  url('/fonts/Logo.eot?r7kepq#iefix') format('embedded-opentype'),
-      url('/fonts/Logo.ttf?r7kepq') format('truetype'),
-      url('/fonts/Logo.woff?r7kepq') format('woff'),
-      url('/fonts/Logo.svg?r7kepq#Logo') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
-  }
-  
-  [class^="GAH-"], [class*=" GAH-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'Logo' !important;
-    /* speak: never; */
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-  
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  
-  .GAH-logo:before {
-    content: "\e900";
-  }
-  
+  font-family: 'Logo';
+  src:  url('/fonts/Logo.eot?tueboo');
+  src:  url('/fonts/Logo.eot?tueboo#iefix') format('embedded-opentype'),
+    url('/fonts/Logo.ttf?tueboo') format('truetype'),
+    url('/fonts/Logo.woff?tueboo') format('woff'),
+    url('/fonts/Logo.svg?tueboo#Logo') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="GAH-"], [class*=" GAH-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Logo' !important;
+  /* speak: never; */
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.GAH-atLogo:before {
+  content: "\e901";
+}
+.GAH-logo:before {
+  content: "\e900";
+}

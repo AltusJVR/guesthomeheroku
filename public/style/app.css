@@ -1,10 +1,6 @@
-
-
-
-
 #navbar-container {
     background-color: #647546;
-    /* color: #3B8C88; */
+    
 }
 
 .navbar-dark .navbar-brand {
@@ -19,6 +15,7 @@
 
 .GAH-logo {
     color:#19211B;
+    font-size: 1.5em;
 }
 
 .navbar a {
@@ -60,15 +57,26 @@
     .text-responsive{font-size: 2rem}
 }
 @media (min-width: 992px) {
-    .text-responsive {font-size: 2.5rem}
+    .text-responsive{font-size: 2.5rem}
 }
 @media (min-width: 1200px) {
-    .text-responsive {font-size: 2.8rem}
+    .text-responsive  {font-size: 2.8rem}
 }
 
 #jumbotron > .lead{
     font-size: 1.5rem;
     text-align: center;
+}
+
+h1 { 
+    font-family: 'Roboto Slab', serif;
+}
+
+
+p {
+    text-align: left;
+    font-family: 'Roboto', serif;
+    font-weight: 400;
 }
 
 body {
@@ -83,16 +91,7 @@ body a:hover{
     color: #19211B;
 }
 
-#main-body h1 {
-    font-family: 'Roboto Slab', serif;
-    margin: 10px 0;
-}
 
-#main-body p {
-    text-align: left;
-    font-family: 'Roboto', serif;
-    font-weight: 400;
-}
 
 #footer {
     font-family: 'Roboto Slab', serif;
