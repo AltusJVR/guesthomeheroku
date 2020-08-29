@@ -23,6 +23,14 @@ app.get("/contact", function (req, res) {
     res.render("contact");
 });
 
+app.get("/nearby", function (req, res) {
+    res.render("nearby");
+});
+
+app.get("/faq", function (req, res) {
+    res.render("faq");
+});
+
 app.get("*", function (req, res) {
     res.redirect("/");
 });
