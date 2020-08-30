@@ -71,6 +71,7 @@
 h1 { 
     font-family: 'Roboto Slab', serif;
 }
+
 h6 {
     font-family: 'Roboto Slab', serif;
     color: #89947F;
@@ -87,9 +88,7 @@ h3 {
     font-size: 1.23em;
 }
 
-.card {
-    border: black solid 2px;
-}
+
 
 
  body  {
@@ -167,6 +166,19 @@ hr {
 
 .designer {
     font-size: x-small;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+/* Remove these styles */
+.card {
+    border: black solid 2px;
 }
 
 
