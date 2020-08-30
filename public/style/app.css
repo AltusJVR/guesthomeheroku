@@ -18,7 +18,7 @@
     font-size: 1.5em;
 }
 
-.navbar a {
+.navbar-dark .navbar-nav .nav-link {
     color:#89947F;
     font-family: 'Roboto', serif;
     font-weight: 400;
@@ -71,29 +71,40 @@
 h1 { 
     font-family: 'Roboto Slab', serif;
 }
+h6 {
+    font-family: 'Roboto Slab', serif;
+    color: #89947F;
+    font-size: 1.15em;
+}
 
 h3 { 
     font-family: 'Roboto Slab', serif;
     text-align: left;
     font-weight: 400;
 }
+.card-title {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.23em;
+}
 
-.post + p {
-    text-align: left;
+.card {
+    border: black solid 2px;
+}
+
+
+ body  {
     font-family: 'Roboto', serif;
     font-weight: 400;
-}
-
-body {
     background-color: #E1DFD5 ;
-}
+    font-size: 1em;
+ }
 
 body a{
-    color: #89947F;
+    color: #19211B;
 
 }
 body a:hover{
-    color: #19211B;
+    color: #89947F;
 }
 
 ul {
