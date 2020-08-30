@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Logo';
-  src:  url('/fonts/Logo.eot?tueboo');
-  src:  url('/fonts/Logo.eot?tueboo#iefix') format('embedded-opentype'),
-    url('/fonts/Logo.ttf?tueboo') format('truetype'),
-    url('/fonts/Logo.woff?tueboo') format('woff'),
-    url('/fonts/Logo.svg?tueboo#Logo') format('svg');
+  src:  url('/fonts/Logo.eot?c0pfvq');
+  src:  url('/fonts/Logo.eot?c0pfvq#iefix') format('embedded-opentype'),
+    url('/fonts/Logo.ttf?c0pfvq') format('truetype'),
+    url('/fonts/Logo.woff?c0pfvq') format('woff'),
+    url('/fonts/Logo.svg?c0pfvq#Logo') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,7 +25,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.GAH-atLogo:before {
+.GAH-AgLogo:before {
   content: "\e901";
 }
 .GAH-logo:before {

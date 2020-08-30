@@ -5,8 +5,9 @@
 
 .navbar-dark .navbar-brand {
     font-family: 'Roboto Slab', serif;
-    font-weight:700;
+    font-weight: 400;
     color: #19211B;
+    font-size: 1.65em;
 }
 
 .navbar-dark .navbar-brand:hover{
@@ -16,6 +17,12 @@
 .GAH-logo {
     color:#19211B;
     font-size: 1.5em;
+}
+
+.GAH-AgLogo {
+    font-size: 1em;
+    font-weight: bold;
+    font-optical-sizing: auto;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -173,6 +180,12 @@ hr {
     margin-right: 0;
     padding-right: 0;
     padding-left: 0;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: scale-down;
 }
 
 
