@@ -54,7 +54,7 @@
     text-shadow:  1px 1px rgba(46, 39,40 , 1);
 }
 .text-responsive {
-    font-size:1.5rem;
+    font-size:1.35rem;
 }
 
 @media (min-width: 544px) {
